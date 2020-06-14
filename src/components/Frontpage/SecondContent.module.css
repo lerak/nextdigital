@@ -1,0 +1,21 @@
+.secondContent{
+    margin: 100px 0;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex1 {
+      width: 50%; 
+  }
+
+  .flex2 {
+      width: 50%;
+  }
+
+  @media(max-width: 1000px){
+      .secondContent {
+          flex-direction: column;
+      }
+  }

@@ -1,0 +1,10 @@
+.form-wrapper {
+    
+    background-color: #000048;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+
+}
