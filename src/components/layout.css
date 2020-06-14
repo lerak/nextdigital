@@ -19,7 +19,7 @@ footer {
 .heading{
   font-size: 2rem;
 }
-/* .ebook {
+.ebook {
   padding: 40px 10px 40px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ footer {
   padding: 5px 5px;
   border: none;
   border-radius: 5px;;
-} */
+}
 .work{
   display: flex;
   flex-direction: column;
