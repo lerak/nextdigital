@@ -77,8 +77,8 @@ header {
 .headerContent {
   color: #fff;
   font-weight: 600;
-  margin-left: 5%;
-  margin-right: 5%;;
+  margin-left: ;
+  margin-right: 20px;
 }
 
 .headerContent button{
@@ -90,6 +90,15 @@ header {
   border-radius: 7px;
   border: none;
 }
+@media(max-width: 500px){
+  .headerContent{
+    font-size: 2.5vw;
+  }
+  .headerContent button {
+    font-size: 3vw;
+  }
+}
+
 
 .headerContent button:hover{
   background-color: rgba(0,0,72,0.8);
@@ -108,13 +117,13 @@ header {
     padding-right: 5%;
   }
 
-  @media(max-width: 600px){
+  /* @media(max-width: 600px){
     .yellowheader{
       flex-direction: column;
       justify-content: flex-start;
       padding-bottom: 40px;
     }
-  }
+  } */
 .yellowheader > div {
   flex: 1;
 }
