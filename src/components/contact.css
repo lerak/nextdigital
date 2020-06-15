@@ -1,6 +1,6 @@
 .form-wrapper {
     display: flex; 
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: #000048;
     color: #fff;
     display: flex;
@@ -10,7 +10,28 @@
 
 }
 
+.form-wrapper h4{
+    font-size: 3vw;
+}
+
 .form-wrapper form {
     display: flex;
     flex-direction: column;
 }
+
+.form-wrapper button{
+    background-color: #f7c903;
+    color: #fff;
+    border: none;
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 5px 0;
+    font-weight: 400;
+}
+.form-wrapper input{
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+  

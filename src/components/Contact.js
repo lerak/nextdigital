@@ -10,6 +10,7 @@ function Contact() {
   
     return (
         <div className="form-wrapper" id="form">
+          <h4>Contacto</h4>
         <form 
           name="contact"
           type="post"
@@ -21,10 +22,9 @@ function Contact() {
           <input type="text" name="name" placeholder="Nombre"/>
           <label htmlFor="email">E-mail:</label>
           <input type="email" name="email" placeholder="email@email.com"/>
-          
           <label htmlFor="mensaje">Mensaje:</label>
-          <textarea name="text" placeholder="Mensaje"></textarea>
-          <button>Send</button>
+          <textarea name="text" placeholder="Mensaje" cols="30" rows="10"></textarea>
+          <button>Enviar</button>
         </form>
         </div>
     )
