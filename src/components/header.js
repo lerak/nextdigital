@@ -13,7 +13,10 @@ const Header = ({ siteTitle }) => (
       {/* <Menu /> */}
       </div>
     <div className="header">
-      <h1>su sitio web <span>debe ser</span> su mejor <span>vendedor</span></h1>
+     <div>
+        <h1>su sitio web <span>debe ser</span> su mejor <span>vendedor</span></h1>
+        <h3><span>Construya una mejor</span> presencia en línea para <span>su negocio local</span></h3>
+      </div>
     </div>
     <div className="svg">
        <Svg />

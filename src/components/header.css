@@ -7,9 +7,10 @@ header {
   }
   .header{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 25%;
+    justify-content: flex-start;
+    height: 35%;
   }
   
   .menubar{
@@ -31,15 +32,47 @@ header {
   
   .header h1{
     font-size: 3.5vw ;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     font-family: 'M PLUS Rounded 1c', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
   }
+.header div{
+  width: 100%;
+}
+  .header h3 {
+    align-self: flex-end;
+    margin-right: 20px;
+    font-size: 2vw;
+    margin-top: -29px;
+    text-align: right;
+    color: #fff;
+  }
+  .header h3 span{
+    color: #f7c903;
+  }
   .header h1 span {
     color: #f7c903;
   }
+@media(max-width: 930px){
+  .header h1 {
+    margin-top: 60px;
+  }
+  .header h3{
+    margin-top: 40px;
+  } 
+}
+@media(max-width: 500px){
+  .header div{
+    margin-top: 10%;
+  }
+}
 
+@media(max-width: 309px){
+  .header div{
+    margin-top: 20%;
+  }
+}
   
 .headerContent {
   color: #fff;
@@ -69,7 +102,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 50%;
+    height: 55%;
     background: #f7c903;
     padding-left: 5%;
     padding-right: 5%;
@@ -87,5 +120,11 @@ header {
 }
   
   .svg {
-    height: 25%;
+    height: 10%;
+  }
+
+  @media(max-width: 1150px){
+    .svg {
+      height: 15%;
+    }
   }
