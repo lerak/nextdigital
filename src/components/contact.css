@@ -1,5 +1,6 @@
 .form-wrapper {
-    
+    display: flex; 
+    flex-direction: column-reverse;
     background-color: #000048;
     color: #fff;
     display: flex;
@@ -7,4 +8,9 @@
     align-items: center;
     padding: 40px 15px;
 
+}
+
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
 }

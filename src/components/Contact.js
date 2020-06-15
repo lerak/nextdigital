@@ -10,7 +10,7 @@ function Contact() {
   
     return (
         <div className="form-wrapper" id="form">
-        <form
+        <form 
           name="contact"
           type="post"
           data-netlify="true"
@@ -19,6 +19,11 @@ function Contact() {
           <input type="hidden" name="contact-form" />
           <label htmlFor="name">Nombre:</label>
           <input type="text" name="name" placeholder="Nombre"/>
+          <label htmlFor="email">E-mail:</label>
+          <input type="email" name="email" placeholder="email@email.com"/>
+          
+          <label htmlFor="mensaje">Mensaje:</label>
+          <textarea name="text" placeholder="Mensaje"></textarea>
           <button>Send</button>
         </form>
         </div>
