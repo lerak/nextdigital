@@ -29,7 +29,9 @@ footer {
   background-color: #000048;
   color: #fff;
 }
-
+.ebook h2 {
+  border-bottom: #F7C92D solid 1px;
+}
 .ebook span{
   color: #F7C92D;
 }
