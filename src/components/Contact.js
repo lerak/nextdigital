@@ -16,7 +16,9 @@ function Contact() {
           data-netlify="true"
           
         >
-          <input type="text" name="name" placeholder="name"/>
+          <input type="hidden" name="contact-form" />
+          <label htmlFor="name">Nombre:</label>
+          <input type="text" name="name" placeholder="Nombre"/>
           <button>Send</button>
         </form>
         </div>
