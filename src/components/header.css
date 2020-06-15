@@ -125,7 +125,6 @@ header {
 
   @media(max-width: 1150px){
     .svg {
-      margin-top: 51px;
       height: 15%;
     }
   }

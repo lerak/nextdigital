@@ -14,7 +14,7 @@ const Work = () => {
         }
       }
     },
-    zenup: file(relativePath: { eq: "call to action.png" }) {
+    zenup: file(relativePath: { eq: "rsznysfinestroofingsidinginccom.png" }) {
       childImageSharp {
         fluid(maxWidth: 1200, maxHeight: 2000) {
           ...GatsbyImageSharpFluid
