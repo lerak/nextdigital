@@ -20,13 +20,18 @@ footer {
   font-size: 2rem;
 }
 .ebook {
-  padding: 40px 10px 40px;
+  padding: 40px 40px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   background-color: #000048;
   color: #fff;
+}
+
+.ebook span{
+  color: #F7C92D;
 }
 .ebook button {
   max-width: 30%;
