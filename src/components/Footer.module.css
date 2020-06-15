@@ -45,6 +45,9 @@
      margin-right:190px;
  }
 @media(max-width: 777px){
+    .main{
+        padding-top: 30px;;
+    }
     .col1 {
         order: 3;
     }
