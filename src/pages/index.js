@@ -11,7 +11,7 @@ import ThirthContent from "../components/Frontpage/ThirthContent"
 
 const IndexPage = () => (
 <Layout>
-<SEO title="Home" />
+<SEO title="Pagina Inicial" />
 <Main />
 <Ebook />
 <SecondContent />
