@@ -10,16 +10,14 @@ function Contact() {
   
     return (
         <div className="form-wrapper" id="form">
-        <form onSubmit={handleSubmit(onSubmit)}>
-          <label>Example</label>
-          <input name="example" defaultValue="test" ref={register} />
-          <label>ExampleRequired</label>
-          <input
-            name="exampleRequired"
-            ref={register({ required: true, maxLength: 10 })}
-          />
-          {errors.exampleRequired && <p>This field is required</p>}
-          <input type="submit" />
+        <form
+          name="contact"
+          type="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="text" name="name" placeholder="name"/>
+          <button>Send</button>
         </form>
         </div>
     )
