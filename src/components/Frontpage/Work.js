@@ -21,7 +21,7 @@ const Work = () => {
         }
       }
     },
-    dentista: file(relativePath: { eq: "dentista.png" }) {
+    dentista: file(relativePath: { eq: "rsz_1dentista.png" }) {
       childImageSharp {
         fluid(maxWidth: 1200, maxHeight: 2000) {
           ...GatsbyImageSharpFluid
