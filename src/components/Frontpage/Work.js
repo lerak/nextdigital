@@ -20,6 +20,20 @@ const Work = () => {
           ...GatsbyImageSharpFluid
         }
       }
+    },
+    dentista: file(relativePath: { eq: "dentista.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1200, maxHeight: 2000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    itech: file(relativePath: { eq: "itech.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1200, maxHeight: 2000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
     }
   }
 `)
@@ -36,11 +50,24 @@ const Work = () => {
     </div>
     <div className={styles.column}>
       <div className={styles.green_column}>
-        <Img fluid={data.hucochea.childImageSharp.fluid}/>
+        <Img fluid={data.dentista.childImageSharp.fluid}/>
+      </div>
+    </div>
+    </div>
+    <div className={styles.some_page_wrapper}>
+    <div className={styles.column}>
+      <div className={styles.green_column}>
+        <Img fluid={data.itech.childImageSharp.fluid}/>
+      </div>
+    </div>
+    <div className={styles.column}>
+      <div className={styles.green_column}>
+        <Img fluid={data.itech.childImageSharp.fluid}/>
       </div>
     </div>
   </div>
-</div>
+  </div>
+
 
 
     )
