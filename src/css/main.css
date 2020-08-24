@@ -45,6 +45,7 @@ header {
   
   @media(max-width: 1262px ) {
    .shapedivsection14 svg.shapediv14 {
+    display: none;
     position:absolute;
     bottom:50%;
     left:50%;
@@ -58,6 +59,7 @@ header {
   
   @media(max-width: 1150px) {
    .shapedivsection14 svg.shapediv14 {
+    display: none;
     position:absolute;
     bottom:50%;
     left:50%;
@@ -72,6 +74,7 @@ header {
   
   @media(max-width: 1070px) {
    .shapedivsection14 svg.shapediv14 {
+    display: none;
     position:absolute;
     bottom:50%;
     left:50%;
@@ -85,6 +88,7 @@ header {
   
   @media(max-width: 387px) {
    .shapedivsection14 svg.shapediv14 {
+    display: none;
     position:absolute;
     bottom:50%;
     left:50%;
