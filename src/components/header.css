@@ -134,6 +134,7 @@ header {
 
   @media(max-width: 1150px){
     .svg {
+      display: none;
       height: 9%;
     }
   }

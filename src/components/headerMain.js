@@ -14,20 +14,20 @@ const Header = ({ siteTitle }) => (
       </div>
     <div className="header">
      <div>
-        <h1>Hacemos <span>tu menú</span> digital</h1>
+        <h1>su sitio web <span>debe ser</span> su mejor <span>vendedor</span></h1>
         <h3><span>Construya una mejor</span> presencia en línea para <span>su negocio local</span></h3>
       </div>
     </div>
-    {/* <div className="svg">
+    <div className="svg">
        <Svg />
-    </div> */}
+    </div>
     <div className="yellowheader">
       <div className="headerImage">
          <Img />
       </div>
       <div className="headerContent">
-         <h2>Haz que tus comensales tengan
-tu menú de forma digital</h2>
+         <p>Nos especializamos en marketing digital personalizado para empresas, con un enfoque en búsqueda local, Páginas web para PYMES, publicidad pagada y redes sociales.
+No es solo un plan, es una sociedad que pone su negocio local en el mapa.</p>
 <Link to="/#form"><button>Conecta</button></Link>
       </div>
     </div>
